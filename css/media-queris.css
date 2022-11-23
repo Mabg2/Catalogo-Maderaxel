@@ -1,0 +1,27 @@
+@media (max-width: 900px) {
+
+    .catalogo-main-new{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+    
+    .home-main-text{
+        font-size: 20px;
+    }
+    .catalogo-news-img-conteiner{
+        grid-row: 2;
+    }
+    .catalogo-new-info-conteiner{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .catalogo-post-container .catalogo-conteiner{
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 600px){
+    .catalogo-post-container .catalogo-conteiner{
+        max-width: 95%;
+    }
+}
