@@ -18,6 +18,12 @@
     .catalogo-post-container .catalogo-conteiner{
         max-width: 45%;
     }
+    .catalogo-button{
+        font-size: small;
+    }
+    .cata{
+        display: none;
+    }
 }
 
 @media (max-width: 600px){
